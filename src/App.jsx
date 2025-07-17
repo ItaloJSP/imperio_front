@@ -45,7 +45,7 @@ export default function App() {
 
         
          <img
-        src="/src/assets/Império.png"
+        src="/src/assets/Imperio.png"
         alt="Logo da Minha Loja"
         className="w-20 h-20 rounded-full mx-auto mb-4 object-cover"
       />
@@ -103,7 +103,7 @@ export default function App() {
         {/* Logo sobre o carrossel */}
         <div className="absolute inset-0 flex justify-center items-center">
           <img
-            src="/src/assets/Império.png"
+            src="/src/assets/Imperio.png"
             alt="Logo da Minha Loja"
             className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-lg border-4 border-white"
           />
