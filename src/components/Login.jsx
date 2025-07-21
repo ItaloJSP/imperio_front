@@ -54,8 +54,20 @@ export default function Login({ onLoginSuccess, onCancel }) {
     className="w-full mt-3 bg-gray-300 text-gray-800 p-2 rounded hover:bg-gray-400 transition"
   >
     Cancelar
+  </button>  
+)
+}
+
+{onNavigateToRegister && (
+  <button
+    type="button"
+    onClick={onNavigateToRegister}
+    className="w-full mt-3 bg-green-600 text-white p-3 rounded hover:bg-green-700 transition"
+  >
+    Cadastrar
   </button>
 )}
+
 
 
     </form>
